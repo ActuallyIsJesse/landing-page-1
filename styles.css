@@ -1,5 +1,18 @@
+* {
+    font-family: 'Roboto', serif;
+}
+
 body {
     display: flex;
     flex-direction: column;
-    
+    justify-content: space-between;
+}
+
+.header {
+
+}
+
+.header a, ul {
+    text-decoration: none;
+    list-style: none;
 }
