@@ -145,6 +145,49 @@ h1 {
     font-style: normal;
 }
 
+.call-to-action {
+    padding: 112px 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action button {
+    padding: 8px 36px;
+    border: 2px solid #f9faf8;
+    border-radius: 8px;
+    background-color: #00000000;
+    color: #f9faf8;
+    font-size: 14px;
+    font-weight: 500;
+    flex-shrink: 0;
+}
+
+.call-to-action p {
+    padding: 0px;
+    margin: 0px;
+    font-weight: lighter;
+}
+
+.call-to-action h4 {
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.call-to-action-box {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: #f9faf8;
+    padding: 48px;
+
+}
+
 footer {
     display: flex;
     justify-content: center;
