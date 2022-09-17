@@ -20,38 +20,6 @@ h1 {
     margin: 0px;
 }
 
-.hero-wrapper {
-    background-color: #1f2937;
-    color: #f9faf8;
-    padding-left: 17%;
-    padding-right: 17%;
-
-}
-
-.hero-content {
-    display: flex;
-    padding-top: 120px;
-    padding-bottom: 120px;
-    gap: 32px;
-}
-
-.hero-text p {
-    font-size: 18px;
-    font-weight: 300;
-    color: #E5E7EB;
-}
-
-.hero-button {
-    background-color: #3882F6;
-    color: #f9faf8;
-    text-align: center;
-    padding: 12px 48px;
-    border: none;
-    font-size: 20px;
-    font-weight: 500;
-    border-radius: 10px;
-}
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -84,4 +52,105 @@ h1 {
     text-decoration: none;
     list-style: none;
     color: #E5E7EB;
+}
+
+.hero-wrapper {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding-left: 17%;
+    padding-right: 17%;
+
+}
+
+.hero-content {
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    gap: 32px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #E5E7EB;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    color: #f9faf8;
+    text-align: center;
+    padding: 12px 48px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.information {
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.information h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color:#1f2937;
+    margin: 48px;
+}
+
+.box-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.box-column p {
+    text-align: center;
+    padding: 4px 4px;
+    color: #212936;
+}
+
+
+.box-column {
+    width: 175px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    width: 160px;
+    height: 160px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+    padding: 112px 17%;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.testimonial p {
+    margin: 0px;
+}
+
+.testimonial > .quote-reference {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    font-style: normal;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    font-weight: lighter;
+    padding: 24px;
 }
